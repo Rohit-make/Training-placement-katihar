@@ -20,9 +20,10 @@
   /* background: linear-gradient(rgba(136, 158, 243, 0.7), rgba(216, 239, 176, 0.7)); */
 }
 
-.collagename {
+.collagename p {
   text-align: center;
-  font-size: 10px;
+  font-size: 25px;
+  font-weight: 400;
 }
 
 .image img {
@@ -250,12 +251,10 @@ div.transbox {
   .carousel-caption {
     padding-bottom: 30px;
   }
+ .collagename p {
 
-  .collagename h3 {
-
-    font-size: 12px;
+    font-size: 8px;
   }
-
 
 
   .hero {
