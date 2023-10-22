@@ -201,7 +201,7 @@ div.transbox {
   }
 .collagename p {
 
-    font-size: 10px;
+    font-size: 14px;
   }
   .hero {
     display: flex;
@@ -229,7 +229,7 @@ div.transbox {
   }
   .collagename p {
 
-    font-size: 10px;
+    font-size: 14px;
   }
 
   .hero {
@@ -260,7 +260,7 @@ div.transbox {
   }
  .collagename p {
 
-    font-size: 8px;
+    font-size: 14px;
   }
 
 
@@ -638,7 +638,7 @@ span.text {
   }
 .collagename p {
 
-    font-size: 8px;
+    font-size: 12px;
   }
   .carousel-caption a {
 
@@ -692,7 +692,7 @@ span.text {
   }
 .collagename p {
 
-    font-size: 8px;
+    font-size: 12px;
   }
   .carousel-caption a {
 
@@ -746,7 +746,7 @@ span.text {
   }
 .collagename p {
 
-    font-size: 7px;
+    font-size: 12px;
   }
   .carousel-caption a {
 
@@ -806,7 +806,7 @@ span.text {
   }
 .collagename p {
 
-    font-size: 6px;
+    font-size: 10px;
   }
   .carousel-caption a {
 
@@ -860,7 +860,7 @@ span.text {
   }
    .collagename p {
 
-    font-size: 5px;
+    font-size: 10px;
   }
 
   .carousel-caption a {
@@ -909,7 +909,7 @@ span.text {
 @media only screen and (max-width:280px)and (max-height: 670px) {
  .collagename p {
 
-    font-size: 4px;
+    font-size: 10px;
    font-weight:500;
   }
   .carousel-caption {
