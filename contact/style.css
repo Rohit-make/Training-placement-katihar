@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Baskerville', serif;
+    box-sizing: border-box;
+  
+  
+  }
+  
+  
+  
+  .bg-light {
+    background: linear-gradient(rgba(62, 129, 105, 1), rgba(62, 129, 105, 0.5));
+    /* position: relative !important; */
+    /* background:linear-gradient(rgb(62, 129, 105)) ; */
+  }
+  
+  .header {
+    width: 100%;
+  
+    /* background: linear-gradient(rgba(136, 158, 243, 0.7), rgba(216, 239, 176, 0.7)); */
+  }
+  
+  .collagename {
+    text-align: center;
+    font-size: 10px;
+  }
+  
+  .image img {
+    filter: brightness(30%);
+  
+  }
+
+  .navbar-nav a {
+
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+  
+  
+  
+  }
+  
+  .navbar-light .navbar-brand {
+  
+    color: #0d0909;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  .navbar-light .navbar-brand:focus,
+  .navbar-light .navbar-brand:hover {
+  
+    color: black;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:focus,
+  .navbar-light .navbar-nav .nav-link:hover {
+  
+    color: whitesmoke;
+    text-decoration: underline;
+  
+  }
+  
+  .w-100 {
+  
+    height: 100vh;
+  
+  }
+  
+  
+  .navbar-toggler {
+  
+    padding: 1px 2px;
+    font-size: 18px;
+    line-height: 0.3;
+    background: whitesmoke;
+  }
+  
+  @media only screen and (max-width: 700px) {
+  
+    .collagename h4 {
+  
+      font-size: 12px;
+    }
+  
+    .navbar-nav {
+  
+      text-align: center;
+      background: rgba(0, 0, 0, 0.5);
+  
+  
+    }
+}
+
+.card1{
+
+    display: flex;
+    column-gap: 3rem;
+    border: none;
+
+    
+}
+
+.prof{
+
+  border-bottom: 3px solid rgb(67, 121, 103);
+  padding: 10px;
+  font-weight: 700;
+}
+
+.card-body{
+
+  text-align: left; 
+  margin-left:15px;
+}
+
+.card-body h3, .sub-heading-2{
+
+  font: 400 28px/18px Inter,sans-serif;
+  letter-spacing: normal;
+  line-height: 35px;
+  margin: 0 0 16px
+}
+.card-body p{
+
+    font-size: 22px;
+   
+}
+
+.card-body a{
+
+  text-decoration: none;
+  color: black;
+}
+
+.card-body a :hover{
+
+    color: rgb(69, 70, 71);
+}
+
+
+
+.card-body i{
+
+    padding: 10px;
+    color: rgb(37, 68, 57) ;
+}
+
+.place{
+
+  border-bottom: 3px solid rgb(67, 121, 103);
+  padding: 10px;
+  font-weight: 700;
+}
+
+.footer p{
+
+   font-size: 18px;
+}
+
