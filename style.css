@@ -22,7 +22,7 @@
 
 .collagename p {
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 400;
 }
 
@@ -839,6 +839,10 @@ span.text {
   .carousel-caption {
     margin-bottom: -80px;
   }
+   .collagename p {
+
+    font-size: 5px;
+  }
 
   .carousel-caption a {
 
@@ -884,7 +888,11 @@ span.text {
 }
 
 @media only screen and (max-width:280px)and (max-height: 670px) {
+ .collagename p {
 
+    font-size: 4px;
+   font-weight:500;
+  }
   .carousel-caption {
     padding-bottom: 80px;
   }
