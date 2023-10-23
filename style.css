@@ -22,7 +22,7 @@
 
 .collagename p {
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 400;
 }
 
@@ -106,7 +106,7 @@ div.transbox {
 
 .hero-btn1 {
 
-  margin:15px 30px;
+  margin: 5% 1% 1% 5%;
 }
 
 .navbar-nav a {
@@ -167,6 +167,7 @@ div.transbox {
   padding: 1px 2px;
   font-size: 18px;
   line-height: 0.3;
+
   background: whitesmoke;
 }
 
@@ -199,10 +200,7 @@ div.transbox {
   .carousel-caption {
     padding-bottom: 400px;
   }
-.collagename p {
 
-    font-size: 14px;
-  }
   .hero {
     display: flex;
     margin-top: 30px;
@@ -227,10 +225,6 @@ div.transbox {
   .carousel-caption {
     padding-bottom: 300px;
   }
-  .collagename p {
-
-    font-size: 14px;
-  }
 
   .hero {
     display: flex;
@@ -250,18 +244,18 @@ div.transbox {
   }
 
 
-
-
 }
 
-@media only screen and (max-width: 700px)and (max-height: 700px) {
+@media only screen and (max-width: 700px) {
   .carousel-caption {
-    padding-bottom: 30px;
+    padding-bottom: 180px;
   }
- .collagename p {
 
-    font-size: 14px;
+  .collagename p {
+
+    font-size: 8px;
   }
+
 
 
   .hero {
@@ -632,14 +626,11 @@ span.text {
 
 }
 
-@media only screen and (max-width:572px)and (max-height: 700px) {
+@media only screen and (max-width:572px) {
   .carousel-caption {
     padding-bottom: 10px;
   }
-.collagename p {
 
-    font-size: 12px;
-  }
   .carousel-caption a {
 
 
@@ -686,14 +677,11 @@ span.text {
   }
 }
 
-@media only screen and (max-width:540px)and (max-height: 700px) {
+@media only screen and (max-width:540px) {
   .carousel-caption {
     padding-bottom: 10px;
   }
-.collagename p {
 
-    font-size: 12px;
-  }
   .carousel-caption a {
 
 
@@ -740,14 +728,11 @@ span.text {
   }
 }
 
-@media only screen and (max-width:429px)and (max-height: 950px) {
+@media only screen and (max-width:429px)and (max-height:1000px) {
   .carousel-caption {
-    padding-bottom: 80px;
+    padding-bottom: 120px;
   }
-.collagename p {
 
-    font-size: 12px;
-  }
   .carousel-caption a {
 
 
@@ -800,14 +785,34 @@ span.text {
   }
 }
 
-@media only screen and (max-width:409px)and (max-height: 700px) {
+@media only screen and (max-width:409px) {
   .carousel-caption {
-    padding-bottom: 90px;
+    padding-bottom: 50px;
   }
-.collagename p {
 
-    font-size: 10px;
+  .carousel-caption a {
+
+
+    font-size: 7px;
   }
+
+  .hero {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: -40px;
+  }
+
+  .hero-btn1 {
+    width: fit-content;
+    margin: 1%;
+  }
+}
+
+@media only screen and (max-width:409px)and (min-height:700px) {
+  .carousel-caption {
+    padding-bottom: 120px;
+  }
+
   .carousel-caption a {
 
 
@@ -854,19 +859,15 @@ span.text {
   }
 }
 
-@media only screen and (max-width:325px)and (max-height: 700px) {
+@media only screen and (max-width:325px) {
   .carousel-caption {
-    margin-bottom: -80px;
-  }
-   .collagename p {
-
-    font-size: 10px;
+    margin-bottom: -40px;
   }
 
   .carousel-caption a {
 
     padding: 1px 2px;
-    font-size: 8px;
+    font-size: 8px
   }
 
   .hero {
@@ -906,12 +907,8 @@ span.text {
   }
 }
 
-@media only screen and (max-width:280px)and (max-height: 670px) {
- .collagename p {
+@media only screen and (max-width:280px) {
 
-    font-size: 10px;
-   font-weight:500;
-  }
   .carousel-caption {
     padding-bottom: 80px;
   }
@@ -927,6 +924,10 @@ span.text {
     margin: auto;
 
   }
+
+
+
+
 
   #exampleModalCenter {
     margin-top: 30%;
