@@ -980,7 +980,7 @@ span.text {
 .carde1-text {
 
   color: rgb(8, 8, 8);
-  font-weight: 700;
+  font-weight: 400;
   font-size: 20px;
   text-align: center;
 
@@ -998,7 +998,7 @@ span.text {
 .Placementhead p {
 
   margin: auto;
-  font-size: 22px;
+  font-size: 16px;
 
 
 }
